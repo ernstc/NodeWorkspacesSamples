@@ -1,0 +1,14 @@
+{
+  "name": "step-2",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build-a": "npm run build -w lib-a",
+    "build-b": "npm run build -w lib-b",
+    "build-web": "npm run build -w webapp",
+    "build": "npm run build-a && npm run build-b && npm run build-web",
+    "start": "npm start -w webapp"
+  }
+}

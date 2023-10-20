@@ -1,0 +1,21 @@
+{
+    "name": "webapp",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "rimraf dist && rollup -c",
+      "start": "http-server --port 9001 -o"
+    },
+    "dependencies": {
+      "lib-b": "*"
+    },
+    "devDependencies": {
+        "http-server": "^14.1.1",
+        "rimraf": "^5.0.5",
+        "rollup": "^4.1.4",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-typescript": "^11.1.5",
+        "tslib": "^2.6.2"
+    }
+  }
+  

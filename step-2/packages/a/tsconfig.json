@@ -1,0 +1,12 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "declarationDir": "dist/dts",
+        "outDir": "dist",
+        "rootDir": ".",
+    },
+    "include": [
+        "./**/*.ts*"
+    ]
+}

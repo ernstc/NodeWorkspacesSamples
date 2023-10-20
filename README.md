@@ -27,4 +27,5 @@ Monorepo is a development practice where all the code for an application or micr
 | Sample | Description |
 | --- | --- |
 | [`step-1`](./step-1) | Minimal web app that uses JS modules bundled with Rollup. |
+| [`step-2`](./step-2) | Minimal web app that uses TypeScript modules bundled with Rollup. |
 
