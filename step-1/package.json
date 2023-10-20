@@ -1,0 +1,11 @@
+{
+  "name": "step-1",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace packages/web",
+    "start": "npm start --workspace packages/web"
+  }
+}
