@@ -9,6 +9,6 @@
     "build-b": "npm run build -w lib-b",
     "build-web": "npm run build -w webapp",
     "build": "npm run build-a && npm run build-b && npm run build-web",
-    "start": "npm start -w webapp"
+    "start": "npm run build && npm start -w webapp"
   }
 }
