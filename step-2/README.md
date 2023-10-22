@@ -6,9 +6,3 @@ Run commands below for executing the `step-2`
 npm install
 npm start
 ```
-
-
-### Issues
-- No tree shaking
-- Source maps contain *.js files instead of *.ts files.
-

@@ -1,15 +1,17 @@
 {
     "compilerOptions": {
+        "composite": true,
         "declaration": true,
         "declarationMap": true,
         "esModuleInterop": true,
-        "strict": true,
-        "target": "ES6",
         "forceConsistentCasingInFileNames": true,
         "importHelpers": true,
-        "inlineSourceMap": true,
+        //"inlineSourceMap": true,
         "module": "ESNext",
         "moduleResolution": "Node",
         "noEmitOnError": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES6",
     }    
 }

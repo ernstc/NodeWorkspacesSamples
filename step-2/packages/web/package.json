@@ -7,7 +7,8 @@
       "start": "http-server --port 9001 -o"
     },
     "dependencies": {
-      "lib-b": "*"
+      "lib-b": "*",
+      "tslib": "^2.6.2"
     },
     "devDependencies": {
         "http-server": "^14.1.1",
@@ -15,7 +16,8 @@
         "rollup": "^4.1.4",
         "@rollup/plugin-node-resolve": "^15.2.3",
         "@rollup/plugin-typescript": "^11.1.5",
-        "tslib": "^2.6.2"
+        "rollup-plugin-sourcemaps": "^0.6.3",
+        "typescript": "^5.2.2"
     }
   }
   
