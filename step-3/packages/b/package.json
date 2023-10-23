@@ -1,0 +1,14 @@
+{
+  "name": "lib-b",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/dts/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "lib-a": "*",
+    "tslib": "^2.6.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "lib-a",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/dts/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "build:rollup": "rimraf dist && rollup -c"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "rollup": "^4.1.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5"
+  }
+}
