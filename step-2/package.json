@@ -10,5 +10,9 @@
     "build-web": "npm run build -w webapp",
     "build": "npm run build-a && npm run build-b && npm run build-web",
     "start": "npm run build && npm start -w webapp"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
   }
 }

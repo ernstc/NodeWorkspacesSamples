@@ -10,9 +10,5 @@
   "dependencies": {
     "lib-a": "*",
     "tslib": "^2.6.2"
-  },
-  "devDependencies": {
-    "rimraf": "^5.0.5",
-    "typescript": "^5.2.2"
   }
 }
