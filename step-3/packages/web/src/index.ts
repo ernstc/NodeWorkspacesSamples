@@ -1,11 +1,13 @@
 import { calculate } from 'lib-b';
 
+const font = require('./font.woff');
 const style = require('./style.less');
 const style2 = require('./style.less');
 
 
 
 const printStyle = (): void => {
+    //console.log("font: ", font);
     console.log("style: ", style);
     console.log("style2: ", style2);
 };

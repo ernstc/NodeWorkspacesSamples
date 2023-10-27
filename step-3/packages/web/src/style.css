@@ -1,0 +1,16 @@
+.my-class {
+  color: red;
+}
+.icon:before {
+  content: "\f101";
+}
+body {
+  background: #1f406e;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body p {
+  font-weight: bold;
+}
