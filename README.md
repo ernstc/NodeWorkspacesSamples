@@ -1,6 +1,6 @@
 ## Samples for analyzing Node workspaces.
 
-This repository contains several samples that demonstrate how to organize complex applications or libraries coded in `JavaScript` and/or  `TypeScript` in a monorepo.
+This repository is a ***work in progress*** for collecting several samples that demonstrate how to organize complex applications or libraries coded in `JavaScript` and/or  `TypeScript` in a monorepo.
 
 ### Why monorepo? 
 
